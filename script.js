@@ -9,4 +9,9 @@ ${programmingLanguage} на курсе по ${programmingLanguage} у ${courseCr
 Я хочу стать веб-разработчиком, потому что ${reasonText}. До этого я изучал
 ${programmingLanguage} ${numberOfMonth}. Я уверен, что пройду данный курс до
 конца!`;
+
 console.log(text); 
+
+let text2 = text.replaceAll (`JavaScript`, `${programmingLanguage.toUpperCase()}`);
+
+console.log(text2); 
