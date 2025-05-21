@@ -15,3 +15,15 @@ console.log(text);
 let text2 = text.replaceAll (`JavaScript`, `${programmingLanguage.toUpperCase()}`);
 
 console.log(text2); 
+
+console.log (text2.length); 
+
+console.log(text2[0]); 
+console.log(text2[258]); 
+
+const namaOfUser = prompt ("Как вас зовут"); 
+const userName = (namaOfUser.toLowerCase());
+const username = (userName.trim());
+console.log (username);
+alert (`Вас зовут ${username}`); 
+
