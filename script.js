@@ -25,5 +25,11 @@ const namaOfUser = prompt ("Как вас зовут");
 const userName = (namaOfUser.toLowerCase());
 const username = (userName.trim());
 console.log (username);
-alert (`Вас зовут ${username}`); 
+
+let userAge = prompt ("Сколько вам лет?");
+userAge = Number(userAge);
+let userage = (userAge.trim);
+console.log (userAge);
+
+alert (`Вас зовут ${username}. Вам ${userAge} лет.`); 
 
